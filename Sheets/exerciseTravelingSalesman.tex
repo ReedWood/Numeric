@@ -1,0 +1,36 @@
+\documentclass[paper=a4, fontsize=12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+
+\pagestyle{empty}
+\parindent0pt
+
+\begin{document}
+
+\begin{center}
+{\Large{Numerische Methoden in der Physik}} \\
+{\sc{Dr. Bj\"orn Schelter}} \\
+\vspace{5mm}
+{\large{Aufgabenblatt Nr. 4}} \\
+\end{center}
+
+\vspace{5mm}
+
+{\bf Übung 4 \\ Stochastisches Minimieren: The Traveling Salesman}
+\begin {itemize}
+\item Lege Koordinaten (2D, (x,y)) für $N$ Städte fest.
+\item Finde den kürzesten Weg, der alle Städte verbindet, ohne dass eine Stadt mehr als einmal
+besucht wird. Verwende dazu \emph{Simulated Annealing}.
+\begin{itemize}
+\item Untersuche verschiedene Permutationsschemata
+\item Untersuche verschiedene Abkühlungsschemata
+\item Untersuchen verschiedene Anzahlen von Iterationsschritten.
+\end{itemize}
+\item[]
+\item Gruppiere die Städte um einen Berg, und führe einen Strafterm ein, wann immer die Route über
+den Berg geht.
+\item Gehe über zu 3D-Koordinaten. Was ist der Unterschied zum Straftermansatz?
+\end{itemize}
+
+\end{document}
